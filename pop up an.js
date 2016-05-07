@@ -15,7 +15,7 @@ var url_popup = 'http://bit.ly/1WeALsq';
         {
           obj["on" + eventName] = func;
         }
-      }
+        
       addEvent(window, "load", function(e){
         addEvent(document.body, "click", function(e)
                  {
